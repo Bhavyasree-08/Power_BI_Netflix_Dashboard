@@ -89,36 +89,4 @@ This project demonstrates the full data lifecycle from cleaning raw Netflix data
 
 ---
 
-## 📂 Folder Structure
-netflix-analysis/
-│
-├── 📁 data/                       # All CSV files: raw, cleaned, derived
-│   ├── Netflix_data.csv
-│   ├── Netflix_data_cleaned.csv
-│   ├── Netflix_data_cleaned_final.csv
-│   ├── netflix_data_normalized.csv
-│   ├── type_data.csv
-│   ├── tv_shows_by_country.csv
-│   ├── top_directors.csv
-│   ├── avg_duration_by_rating.csv
-│   ├── cast_data.csv
-│   ├── frequent_cast_members.csv
-│   ├── content_by_country_and_category.csv
-│   ├── most_common_types.csv
-│   └── movies.csv
-│
-├── 📁 notebooks/                 # Jupyter notebooks for EDA
-│   └── Analysis_Notebook.ipynb
-│
-├── 📁 dashboard/                 # Streamlit application
-│   └── Dashboard.py
-│
-├── 📁 images/                    # Dashboards
-│   ├── type_distribution_piechart.png
-│   ├── top_directors_piechart.png
-│   └── title_release_sum.png
-│
-├── README.md                    # Project documentation
-└── requirements.txt             # Python dependencies
-
 :)
